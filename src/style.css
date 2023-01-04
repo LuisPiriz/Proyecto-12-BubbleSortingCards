@@ -1,1 +1,24 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+body {
+  background-color: green;
+}
+
+.card {
+  font-size: 60px;
+  padding: 10px;
+  margin: 30px;
+  width: 20%;
+  border-radius: 20px;
+}
+
+.numero {
+  text-align: center;
+  line-height: 150px;
+  font-size: 100px;
+  color: black;
+}
+
+.bot {
+  transform: rotate(180deg);
+}
