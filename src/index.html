@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Hello Rigo with Vanilla.js</title>
+    <title>Bubble sorting cards</title>
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
@@ -14,15 +14,14 @@
   </head>
 
   <body>
-    <div class="inbo">
-      <button id="button">Generate new card</button>
+    <div class="inbo d-grid m-4 w-50 m-auto">
+      <h1><strong>Cantidad de cartas</strong></h1>
+      <input id="input" type="number" class="form-control m-2" />
+      <button type="button" id="button" class="btn btn-dark m-2">
+        Barajar cartas
+      </button>
+      <button id="button2" class="btn btn-dark m-2">Ordenar cartas</button>
     </div>
-    <div class="card m-auto">
-      <div class="card-body">
-        <div class="top"></div>
-        <div class="numero"></div>
-        <div class="bot"></div>
-      </div>
-    </div>
+    <div class="d-flex row" id="cards"></div>
   </body>
 </html>
