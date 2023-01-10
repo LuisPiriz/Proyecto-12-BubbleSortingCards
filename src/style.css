@@ -5,17 +5,17 @@ body {
 }
 
 .card {
-  font-size: 60px;
-  padding: 10px;
+  font-size: 20px;
+  padding: 1px;
   margin: 30px auto;
-  width: 20%;
-  border-radius: 20px;
+  width: 8%;
+  border-radius: 10px;
 }
 
 .numero {
   text-align: center;
-  line-height: 150px;
-  font-size: 100px;
+  line-height: 40px;
+  font-size: 25px;
   color: black;
 }
 
